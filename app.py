@@ -16,7 +16,7 @@ def load_data():
     Carga, limpia y prepara los datos del archivo CSV de ventas.
     """
     # Cargar los datos
-    file_path = "C:\\Users\\efren\\GEMINI\\DATA\\reporte_ventas_final.csv"
+    file_path = "GEMINI/DATA/reporte_ventas_final.csv"
     df = pd.read_csv(file_path)
 
     # --- Limpieza de Datos ---
